@@ -568,13 +568,25 @@ input[type='file'] {
 }
 
 @media screen and (max-width: 480px) {
-  .app__infodialog {
-    width: 90%;
-    height: 80vh; /* Example of a responsive height based on the viewport height */
-    /* Adjust the height as needed for your specific content or design */
+  .app__infodialog,
+  .app__dialog {
+    width: 90%; /* Use a higher percentage of screen width */
+    height: auto; /* Make height flexible to content */
+    min-height: 180px; /* Ensure dialog is not too small */
+    max-height: 80vh; /* Prevent dialog from being too tall */
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px; /* Optional: Add padding for better spacing */
+    overflow-y: auto; /* Allow scrolling if content exceeds dialog height */
+    position: fixed; /* Adjust position for better mobile compatibility */
+    top: 10%; /* Distance from the top of the screen */
+    left: 5%; /* Centering adjustment */
+    right: 5%; /* Centering adjustment */
+    bottom: 10%; /* Adjust bottom position for smaller screens */
+    margin: auto; /* Center dialog */
   }
 
-  .app__infodialog-content {
-    padding: 12px 13px;
+  .app__infodialog-content,
+  .app__dialog-content {
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 }
