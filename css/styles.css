@@ -566,4 +566,15 @@ input[type='file'] {
   position: relative;
   display: none;
 }
+
+@media screen and (max-width: 480px) {
+  .app__infodialog {
+    width: 90%;
+    height: 80vh; /* Example of a responsive height based on the viewport height */
+    /* Adjust the height as needed for your specific content or design */
+  }
+
+  .app__infodialog-content {
+    padding: 12px 13px;
+  }
 }
