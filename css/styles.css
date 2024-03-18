@@ -350,7 +350,7 @@ video {
 .app__infodialog {
   max-width: 480px;
   width: 95%;
-  height: 350px;
+  height: 340px;
 }
 
 .app__dialog-content,
@@ -570,7 +570,6 @@ input[type='file'] {
 @media screen and (max-width: 480px) {
   .app__infodialog {
     width: 90%; 
-    height: 400px;
   }
 
   .app__infodialog-content {
