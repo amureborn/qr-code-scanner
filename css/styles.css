@@ -348,9 +348,9 @@ video {
 }
 
 .app__infodialog {
-  max-width: 535px;
+  max-width: 480px;
   width: 95%;
-  height: 242px;
+  height: 240px;
 }
 
 .app__dialog-content,
@@ -361,7 +361,6 @@ video {
 
 .app__infodialog-subcontent {
   margin-top: 18px;
-  margin-bottom: 10px;
 }
 
 .app__infodialog-subcontent a {
@@ -370,7 +369,6 @@ video {
 
 .app__infodialog-subcontent p:not(:first-child) {
   margin-top: 10px;
-margin-bottom: 10px;
 }
 
 .app__dialog-content h1,
