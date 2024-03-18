@@ -566,15 +566,4 @@ input[type='file'] {
   position: relative;
   display: none;
 }
-
-@media screen and (max-width: 480px) {
-  .app__infodialog {
-  max-width: 480px;
-  width: 90%;
-  height: 485px;
-}
-
-  .app__infodialog-content {
-    padding: 12px 13px;
-  }
 }
