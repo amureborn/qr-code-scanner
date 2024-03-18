@@ -579,12 +579,9 @@ input[type='file'] {
   display: none;
 }
 
-/* Adjustments for smaller screens */
-@media (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .app__infodialog {
-    width: 85%; /* Increase width on smaller screens for better readability */
-     max-height: 80vh; /* Adjusts the height for smaller screens */
-    overflow-y: auto; /* Ensures content is scrollable if it exceeds the dialog's height */
+    width: 90%;
   }
 
   .app__infodialog-content {
