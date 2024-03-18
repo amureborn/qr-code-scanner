@@ -350,7 +350,7 @@ video {
 .app__infodialog {
   max-width: 480px;
   width: 95%;
-  height: 340px;
+  height: 320px;
 }
 
 .app__dialog-content,
