@@ -352,7 +352,7 @@ video {
   width: 95%;
   /* Use viewport height to make the height responsive */
   height: auto; /* Adjust based on content, with a max-height to ensure it doesn't get too tall on small devices */
-  max-height: 75vh; /* Adjusts the height to not exceed 75% of the viewport height */
+  max-height: 80vh; /* Adjusts the height to not exceed 75% of the viewport height */
   overflow-y: auto; /* Adds scroll for long content */
   position: fixed;
   left: 50%;
@@ -583,17 +583,9 @@ input[type='file'] {
 @media (max-width: 600px) {
   .app__infodialog {
     width: 85%; /* Increase width on smaller screens for better readability */
-    max-height: 85vh; /* Allows more space for the content on small devices */
+     max-height: 80vh; /* Adjusts the height for smaller screens */
+    overflow-y: auto; /* Ensures content is scrollable if it exceeds the dialog's height */
   }
-}
-
-/* Further adjustments for very small screens */
-@media (max-width: 400px) {
-  .app__infodialog {
-    width: 95%; /* Takes up more width on very small screens */
-    max-height: 95vh; /* Allows even more space for the content */
-  }
-}
 
   .app__infodialog-content {
     padding: 12px 13px;
