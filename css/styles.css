@@ -353,6 +353,12 @@ video {
   height: 480px;
 }
 
+.app__dialog-content,
+.app__infodialog-content {
+  width: 100%;
+  padding: 15px;
+}
+
 .benefits-list {
   list-style: none;
   padding-left: 0;
@@ -379,11 +385,6 @@ video {
 
 .benefit-description {
   color: #666; /* Lighter text for the description */
-}
-.app__dialog-content,
-.app__infodialog-content {
-  width: 100%;
-  padding: 15px;
 }
 
 .app__infodialog-subcontent {
