@@ -350,19 +350,7 @@ video {
 .app__infodialog {
   max-width: 480px;
   width: 95%;
-  /* Use viewport height to make the height responsive */
-  height: auto; /* Adjust based on content, with a max-height to ensure it doesn't get too tall on small devices */
-  max-height: 80vh; /* Adjusts the height to not exceed 75% of the viewport height */
-  overflow-y: auto; /* Adds scroll for long content */
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-  padding: 20px;
-  box-sizing: border-box; /* Ensures padding is included in the width */
-  background-color: #fff;
-  border-radius: 8px;
+  height: 500px;
 }
 
 .app__dialog-content,
