@@ -4,5 +4,5 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://amureborn.com/sitemap.xml
-Sitemap: http://amureborn.com/sitemap.xml
+Sitemap: https://qrcodescanner.me/sitemap.xml
+Sitemap: https://qrcodescanner.me/sitemap.xml
