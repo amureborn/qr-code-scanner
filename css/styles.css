@@ -581,10 +581,15 @@ input[type='file'] {
 
 @media screen and (max-width: 480px) {
   .app__infodialog {
-    width: 90%;
+    width: 90%; /* Adjust width to provide better margin on small screens */
+    max-height: 80vh; /* Prevent dialog from taking up the entire screen height */
+    overflow-y: auto; /* Allows scrolling within the dialog if content exceeds its height */
+    margin-top: 10vh; /* Centers dialog vertically with some space on top */
+    transform: translateY(0); /* Overrides any transform that might misplace the dialog */
   }
 
   .app__infodialog-content {
-    padding: 12px 13px;
+    padding: 12px 13px; /* Provides adequate spacing for the content */
+    font-size: 16px; /* Increases font size for better readability on small screens */
   }
 }
