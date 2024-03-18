@@ -361,6 +361,7 @@ video {
 
 .app__infodialog-subcontent {
   margin-top: 18px;
+  margin-bottom: 10px;
 }
 
 .app__infodialog-subcontent a {
@@ -369,6 +370,7 @@ video {
 
 .app__infodialog-subcontent p:not(:first-child) {
   margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .app__dialog-content h1,
