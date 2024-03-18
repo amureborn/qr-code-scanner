@@ -579,13 +579,12 @@ input[type='file'] {
   display: none;
 }
 
-@media screen and (max-width: 480px) and (max-height: 500px) {
+@media screen and (max-width: 480px) {
   .app__infodialog {
-    width: 90%; 
+    width: 90%;
   }
 
   .app__infodialog-content {
-    padding: 12px 13px; /* Provides adequate spacing for the content */
-    font-size: 16px; /* Increases font size for better readability on small screens */
+    padding: 12px 13px;
   }
 }
