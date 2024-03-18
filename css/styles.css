@@ -571,7 +571,7 @@ input[type='file'] {
   .app__infodialog,
   .app__dialog {
     width: 90%; /* Use a higher percentage of screen width */
-    height: auto; /* Make height flexible to content */
+    height: 360px; /* Make height flexible to content */
     min-height: 180px; /* Ensure dialog is not too small */
     max-height: 80vh; /* Prevent dialog from being too tall */
     flex-direction: column; /* Stack content vertically */
