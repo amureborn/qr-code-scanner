@@ -348,9 +348,9 @@ video {
 }
 
 .app__infodialog {
-  max-width: 600px;
+  max-width: 535px;
   width: 95%;
-  height: 315px;
+  height: 242px;
 }
 
 .app__dialog-content,
